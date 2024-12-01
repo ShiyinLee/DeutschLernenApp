@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" stylesheets="@review.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo2.reviewController">
+    <children>
+        <Label fx:id="questionLabel" layoutX="178.0" layoutY="27.0" text="Choose the correct image!">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font></Label>
+        <HBox layoutX="70.0" layoutY="136.0" prefHeight="146.0" prefWidth="501.0" spacing="20.0">
+            <children>
+                <ImageView fx:id="choice1" fitHeight="100.0" fitWidth="100.0" />
+                <ImageView fx:id="choice2" fitHeight="100.0" fitWidth="100.0" />
+                <ImageView fx:id="choice3" fitHeight="100.0" fitWidth="100.0" />
+                <ImageView fx:id="choice4" fitHeight="100.0" fitWidth="100.0" />
+            </children>
+        </HBox>
+
+        <!-- Result/Feedback Label -->
+        <Label fx:id="resultLabel" layoutX="288.0" layoutY="349.0">
+         <font>
+            <Font name="Times New Roman Italic" size="18.0" />
+         </font></Label>
+
+        <!-- Next Button -->
+        <Button fx:id="nextButton" layoutX="494.0" layoutY="417.0" prefWidth="100.0" text="Next">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Button>
+        <Button layoutX="40.0" layoutY="417.0" onAction="#GoToMenu" text="return Menu">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Button>
+      <Label fx:id="germanWord" layoutX="169.0" layoutY="63.0" text="germanWord">
+         <font>
+            <Font name="Times New Roman Bold" size="48.0" />
+         </font></Label>
+    </children>
+
+</AnchorPane>

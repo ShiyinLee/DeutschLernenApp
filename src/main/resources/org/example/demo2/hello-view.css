@@ -1,0 +1,21 @@
+.root{
+    -fx-background-color:#C6D8FF;
+    -fx-alignment: center;
+}
+
+VBox{
+    -fx-spacing: 20;
+    -fx-padding: 20;
+}
+
+.button{
+    -fx-background-color: linear-gradient(to bottom, #76b852, #8dc26f);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #4caf50;
+    -fx-border-width: 2;
+}
+
